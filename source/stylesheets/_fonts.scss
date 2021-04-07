@@ -3,7 +3,6 @@
   font-family: 'WorkSans-Regular';
   font-style: normal;
   font-weight: 400;
-<<<<<<< HEAD
   src: url('/fonts/work-sans-v9-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('/fonts/work-sans-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -11,11 +10,6 @@
        url('/fonts/work-sans-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
        url('/fonts/work-sans-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/fonts/work-sans-v9-latin-regular.svg#WorkSans') format('svg'); /* Legacy iOS */
-=======
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3ms5qofeCSXCQNBfHFA.woff) format('woff');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
->>>>>>> parent of 996cc62... fixed regular fonts becuase im an idiot haha
 }
 
 /* work-sans-600 - latin */
@@ -79,7 +73,6 @@
   font-family: 'WorkSans-RegularItalic';
   font-style: italic;
   font-weight: 400;
-<<<<<<< HEAD
   src: url('/fonts/work-sans-v9-latin-italic.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('/fonts/work-sans-v9-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -90,13 +83,6 @@
 }
 
 /* work-sans-600italic - latin */
-=======
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBiEJoI3ZKyHaQfhf.woff) format('woff');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-} 
-/* latin-ext */
->>>>>>> parent of 996cc62... fixed regular fonts becuase im an idiot haha
 @font-face {
   font-family: 'WorkSans-SemiBoldItalic';
   font-style: italic;
