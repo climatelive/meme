@@ -1,6 +1,6 @@
 # Meme
 
-This is Climate Live's Graphics Generator, which we use to develop quick graphics for socials. It's forked from the LA Times, who forked it from Vox Media. It's still a work in progress, though it's functional right now. Theres been issues with running it in some browsers, especially safari - we recommend Chrome.
+This is Climate Live's Graphics Generator, which we use to develop quick graphics for socials. It's forked from the LA Times, who forked it from Vox Media. There's been issues with running it in some browsers, especially Safari - we recommend Chrome. You can check the live build at [meme.climatelive.org]
 
 # How to deploy
 -------------------------------
@@ -18,8 +18,9 @@ then `make serve`
 
 Like so:
 
+`middleman build`
 
-`make build`
+This will create the build on your server. We currently host on Cloudflare pages which works great. 
 
 
 **Commit your work**
