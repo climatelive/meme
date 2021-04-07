@@ -1,7 +1,7 @@
 var MEME_SETTINGS = {
-  creditText: '', // Default "credits" text.
-  creditSize: 12, // Font size for credit text.
-  downloadName: 'meme', // The name of the downloaded image file (will have a ".png" extension added).
+  creditText: 'Source:', // Default "credits" text.
+  creditSize: 24, // Font size for credit text.
+  downloadName: 'cl-meme', // The name of the downloaded image file (will have a ".png" extension added).
 
   // Universal font family for texts:
   // Note that you'll need to included quoted font names as you would in CSS, ie: '"Knockout 28 B"'.
@@ -9,10 +9,12 @@ var MEME_SETTINGS = {
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
   fontFamilyOpts: [
+      'WorkSans-Regular',
       'WorkSans-SemiBold',
       'WorkSans-Bold',
       'WorkSans-ExtraBold',
       'WorkSans-Black',
+      'WorkSans-RegularItalic',
       'WorkSans-SemiBoldItalic',
       'WorkSans-BoldItalic',
       'WorkSans-ExtraBoldItalic',
@@ -56,7 +58,7 @@ var MEME_SETTINGS = {
   // Image background color, or blank ('') for no overlay:
   backgroundColor: '#000',
   // Background color options: set to empty array to disable background options selector. LAT colors below.
-  backgroundColorOpts: ['#fff','#4591B8', '#294F70','#DA1B28', '#000'],
+  backgroundColorOpts: ['#fff','#000', '#FF3328','#FE0FBC', '#FE9958', '#FED35D', '#1B7340'],
   paddingRatio: 0.06, // Percentage of canvas width to use as edge padding.
 
 

@@ -1,27 +1,26 @@
-# Meme (Data Desk remix)
+# Meme
 
-Meme is a generator that Vox Media uses to create social sharing images. See working version at [http://www.sbnation.com/a/meme](http://www.sbnation.com/a/meme).
+This is Climate Live's Graphics Generator, which we use to develop quick graphics for socials. It's forked from the LA Times, who forked it from Vox Media. It's still a work in progress, though it's functional right now. Theres been issues with running it in some browsers, especially safari - we recommend Chrome.
 
-This is Climate Live's fork. 
-
-How to deploy (at the LA Times)
+# How to deploy
 -------------------------------
 
 **Edit the ``source`` directory to make the changes you want**
 
+
 You can fire up the test server locally by running:
 
-```bash
-$ make serve
-```
+`bundle install` (if this fails, running `bundle update` before helps)
+
+then `make serve`
 
 **Build the source files into a working static site**
 
 Like so:
 
-```bash
-$ make build
-```
+
+`make build`
+
 
 **Commit your work**
 
@@ -34,10 +33,4 @@ $ git add .
 $ git commit -m "A precise message goes here"
 # Push it up to GitHub
 $ git push origin master
-```
-
-**Deploy your changes to Amazon S3**
-
-```bash
-$ make ship
 ```
