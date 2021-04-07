@@ -1,0 +1,62 @@
+<form class="m-editor" id="meme-editor-view">
+
+  <fieldset class="m-fieldset">
+        <h2>1. Choose a size</h2>
+        <select class="aspect-ratio" id="aspect-ratio">
+            <option value="" disabled>Select aspect ratio</option>
+        </select>
+  </fieldset>
+
+  <fieldset class="m-fieldset">
+      <h2>2. Set the background</h2>
+      <h3><label for="background-color">Use a solid color ...</label></h3>
+      <div class="m-editor__background-color" id="background-color">
+        <ul class="checkbox-group">
+          <li><label><input type="radio" name="background-color" value=""> None</label></li>
+        </ul>
+      </div>
+
+      <h3><label for="dropzone">... or add an image background</label></h3>
+      <div class="dropzone" id="dropzone">Drop image from your desktop here.</div>
+
+      <h3><label for="image-scale">Resize the image</label></h3>
+      <input id="image-scale" type="range" max="4" min=".01" step=".01" value="1">
+
+      <div class="m-editor__overlay" id="overlay">
+        <h3><label for="overlay">Add an overlay</label></h3>
+        <ul class="checkbox-group">
+          <li><label><input type="radio" name="overlay" value=""> None</label></li>
+        </ul>
+      </div>
+      <div style="clear:both; height:1em;"></div>
+  </fieldset>
+
+  <fieldset class="m-fieldset">
+    <h2>3. Add text</h2>
+
+    <textarea id="headline" name="headline" type="text" value=""></textarea>
+    <select class="text-align" id="text-align">
+        <option value="" disabled>Select alignment</option>
+    </select>
+    <select class="font-size" id="font-size">
+        <option value="" disabled>Select a font size</option>
+    </select>
+    <select class="font-family" id="font-family">
+        <option value="" disabled>Select a font</option>
+    </select>
+    <select class="font-color" id="font-color">
+        <option value="" disabled>Select a font color</option>
+    </select>
+    <div class="checkbox-group text-shadow">
+        <input id="text-shadow" name="shadow" type="checkbox">
+        <label for="text-shadow">Text Shadow</label>
+    </div>
+    <select class="watermark" id="watermark">
+        <option value="watermark" disabled>Select a logo</option>
+    </select>
+
+    <h3><label for="credit">Any credits?</label></h3>
+    <input id="credit" name="credit" type="text" value="">
+  </fieldset>
+
+</form>

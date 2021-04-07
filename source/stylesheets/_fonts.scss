@@ -1,0 +1,79 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Semi-Bold Italic';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/WorkSans-SemiBoldItalic.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Bold Italic ';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/WorkSans-BoldItalic.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Extra-Bold Italic';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/WorkSans-ExtraBoldItalic.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Black Italic';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/WorkSans-BlackItalic.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Semi-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/WorkSans-SemiBold.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/WorkSans-Bold.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Extra-Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/WorkSans-ExtraBold.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans Black';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/WorkSans-Black.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+
+
+form select, form .checkbox-group label, form textarea, form input[type="text"]{
+	font-family: 'Work Sans Semi-Bold';
+}
