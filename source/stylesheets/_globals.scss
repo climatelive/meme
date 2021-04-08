@@ -65,7 +65,8 @@ h2 {
   color: #ff3328;
     @supports (-webkit-background-clip: text) {
       background-image: url('/images/pink_grad.jpg');
-      background-size: contain;
+      background-size: cover;
+      background-repeat: no-repeat;
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
