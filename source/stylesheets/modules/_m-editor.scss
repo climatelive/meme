@@ -11,15 +11,16 @@ $m: '.m-editor';
   }
 
   .dropzone {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80px;
     background-color: #fcfcfc;
     border: 2px dashed #cfcfcf;
     border-radius: 10px;
     color: #6a6a69;
-    display: block;
     font-size: 14px;
     font-weight: 700;
-    height: 80px;
-    line-height: 80px;
     margin-bottom: 1em;
     text-align: center;
     vertical-align: middle;
